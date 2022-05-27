@@ -1,0 +1,252 @@
+* {
+    font-family: 'Roboto', sans-serif;  
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 50px;
+    background-color: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.subheader .subheader_call {
+    margin-top: 19px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.promo {
+    min-height: 800px;
+    background: url(../img/uber_bg.png) center center/cover no-repeat;
+    padding: 150px 0 135px;
+}
+
+.promo .promo_header {
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+}
+
+.promo .promo_subheader {
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 22px 0 0;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.benefits {
+    position:relative;
+    min-height:850px;
+    padding:20px 0 64px;
+    text-align: center;
+}
+
+.benefits .title {
+    margin: 0;
+    padding-top: 33px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.benefits .row{
+    padding:0 43px 0 33px;
+}
+
+.benefits .benefits_wrapper{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:row;
+    flex-direction:row;
+    -webkit-box-align:start;
+    -ms-flex-align:start;
+    align-items:flex-start;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap
+}
+
+.benefits .benefits_wrapper .benefits_item {
+    margin-top:26px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    
+}
+
+.benefits .benefits_wrapper .benefits_item:nth-child(2n+1) {
+    margin-right:15px
+}
+
+.benefits .benefits_wrapper .benefits_item .benefits_round {
+    margin:15px 25px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background: #1EACC7;    
+}
+
+.benefits_img {
+    display: block;
+    margin: 0 auto;
+    vertical-align: center;
+}
+
+.benefits .container .benefits_wrapper .benefits_item .mar {
+    margin-left: 70px;
+}
+
+.benefits .benefits_wrapper .benefits_item .benefits_descr {
+    width:371px;
+    font-weight:300;
+    line-height:21px;
+    font-size:17px;
+    color:black;
+    text-align:left;
+}
+
+.benefits span {
+    color:#1EACC7;
+    font-weight:400
+}
+
+.mobile {
+    min-height:864px;
+    padding:46px 0 80px;
+    background:url("../img/uber_bg.png") center center/cover no-repeat
+}
+    /*align-items: center;
+}
+.benefits .benefits_wrapper .benefits_item:nth-child(2n+1) {
+    margin-right: 15px;
+}
+.benefits .benefits_wrapper .benefits_item .benefits_round {
+    padding-right: 25px;
+    margin-top: 20px;
+}
+.benefits .benefits_wrapper .benefits_item .benefits_descr {
+    width: 371px;
+    font-weight: 300;
+    line-height: 21px;
+    font-size: 17px;
+    color: black;
+}
+.benefits span {
+    color: #1EACC7;
+    font-weight: 400;
+}

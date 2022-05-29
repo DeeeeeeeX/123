@@ -11,7 +11,8 @@ $blue: #1EACC7
   z-index: 1
 a
   text-decoration: none
-
+body
+  position: relative
 button
   outline: none
   &:hover
@@ -401,3 +402,96 @@ span
       li
         &::before
           background: url('../img/OK.png ')
+
+.city
+  background: url('../img/world_bg.png')
+  min-height: 716px
+  padding: 46px 0 21px 0
+  text-align: center
+  .label
+      background: $white
+      color: $black
+  .title
+    padding: 0
+    margin-top: 26px
+    color: $white
+  .subtitle
+    margin-top: 2px
+    color: $white
+  .descr_city
+    margin-top: 457px
+    a
+      text-decoration: none
+      font-weight: 400
+      font-size: 15px
+      line-height: 68px
+      display: inline
+      text-align: center
+      text-transform: uppercase
+      color: $blue
+
+.footer_uber
+  min-height: 155px
+  padding: 11px 0 11px 0
+  &::before
+    content: ''
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    display: block
+    height: 6px
+    width: 301px
+    background-color: #1EACC7
+.links
+  width: 390px
+  margin: 0 auto
+  &_1
+    margin-top: 35px
+    display: flex
+    justify-content: space-between
+    padding: 0 10px
+    a
+      color: $black
+      font-weight: 300
+      font-size: 15px
+      text-transform: uppercase
+  &_2
+    margin-top: 15px
+    display: flex
+    justify-content: space-between
+    padding: 0 10px
+    a
+      font-size: 11px
+      font-weight: 300
+      color: #999999
+      text-transform: uppercase
+.lng
+  margin-top: 20px
+  font-weight: 400
+  font-size: 11px
+  text-align: center
+  text-transform: uppercase
+  color: #1FBAD6
+.social
+  position: absolute
+  left: 23px
+  bottom: 72px
+  display: flex
+  .bround
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 35px
+    height: 35px
+    border-radius: 100%
+    background: #000000
+    .social_img
+      display: inline
+      margin: 0 auto
+
+.download
+  position: absolute
+  right: 21px
+  bottom: 77px
+
+  

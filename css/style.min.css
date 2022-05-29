@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  position: relative;
+}
+
 button {
   outline: none;
 }
@@ -527,5 +531,146 @@ span {
 
 .require .warning .require_list li::before {
   background: url("../img/OK.png ");
+}
+
+.city {
+  background: url("../img/world_bg.png");
+  min-height: 716px;
+  padding: 46px 0 21px 0;
+  text-align: center;
+}
+
+.city .label {
+  background: #FFFFFF;
+  color: #070716;
+}
+
+.city .title {
+  padding: 0;
+  margin-top: 26px;
+  color: #FFFFFF;
+}
+
+.city .subtitle {
+  margin-top: 2px;
+  color: #FFFFFF;
+}
+
+.city .descr_city {
+  margin-top: 457px;
+}
+
+.city .descr_city a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 68px;
+  display: inline;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1EACC7;
+}
+
+.footer_uber {
+  min-height: 155px;
+  padding: 11px 0 11px 0;
+}
+
+.footer_uber::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: block;
+  height: 6px;
+  width: 301px;
+  background-color: #1EACC7;
+}
+
+.links {
+  width: 390px;
+  margin: 0 auto;
+}
+
+.links_1 {
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 10px;
+}
+
+.links_1 a {
+  color: #070716;
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.links_2 {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 10px;
+}
+
+.links_2 a {
+  font-size: 11px;
+  font-weight: 300;
+  color: #999999;
+  text-transform: uppercase;
+}
+
+.lng {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1FBAD6;
+}
+
+.social {
+  position: absolute;
+  left: 23px;
+  bottom: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social .bround {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background: #000000;
+}
+
+.social .bround .social_img {
+  display: inline;
+  margin: 0 auto;
+}
+
+.download {
+  position: absolute;
+  right: 21px;
+  bottom: 77px;
 }
 /*# sourceMappingURL=style.min.css.map */

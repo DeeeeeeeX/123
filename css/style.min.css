@@ -686,6 +686,10 @@ i {
   color: #fff;
 }
 
+.xs-visible {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .menu_item {
     padding-right: 20px;
@@ -705,6 +709,23 @@ i {
     position: absolute;
     right: 11px;
     bottom: 17px;
+  }
+  .benefits_item {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .benefits_descr {
+    width: 300px;
+  }
+  .benefits .benefits_wrapper .benefits_descr {
+    width: 305px;
+  }
+  .benefits .benefits_wrapper .benefits_round {
+    margin-right: 7px;
+  }
+  .benefits .benefits_wrapper .benefits_item {
+    margin: 20px 5px 0 0;
   }
 }
 
@@ -739,6 +760,22 @@ i {
     padding-top: 32px;
     width: 200px;
     height: 200px;
+  }
+  .benefits_item {
+    margin: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .benefits_descr {
+    width: 300px;
+  }
+  .benefits .benefits_wrapper .benefits_round {
+    margin-bottom: 15px;
   }
 }
 
@@ -806,6 +843,183 @@ i {
   .hamburger_active span:nth-child(3) {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
+  }
+  .xs-hidden {
+    display: none;
+  }
+  .xs-visible {
+    display: block;
+  }
+  .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .subheader_btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .promo_header {
+    line-height: 45px;
+  }
+  .mobile_item {
+    padding-top: 32px;
+    width: 320px;
+    height: 280px;
+  }
+  .benefits_round {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .row {
+    width: 320px;
+  }
+  .subheader {
+    height: 60px;
+  }
+  .subheader_official {
+    display: none;
+  }
+  .subheader_logo {
+    margin-top: 18px;
+  }
+  .subheader_phone {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 11px;
+  }
+  .subheader_btn {
+    width: 110px;
+    height: 22px;
+    font-size: 10px;
+    margin-top: 9px;
+  }
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0;
+  }
+  .promo_descr {
+    display: none;
+  }
+  .promo_header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  .promo_subheader {
+    font-size: 20px;
+    margin-top: 33px;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  .promo_btn {
+    width: 210px;
+    height: 50px;
+    margin-top: 72px;
+  }
+  .menu {
+    width: 85%;
+  }
+  .benefits .container .row {
+    padding: 22px 0 36px 0;
+  }
+  .benefits .container .row .benefits_round {
+    margin-top: 20px;
+  }
+  .benefits .container .row .benefits_item {
+    margin: 0;
+  }
+  .benefits .container .row .benefits_descr {
+    margin-top: 20px;
+    width: auto;
+  }
+  .title {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+  .mobile_item {
+    padding-top: 32px;
+    width: 200px;
+    height: 200px;
+  }
+  .capibality_1 {
+    min-height: 320px;
+  }
+  .car_img {
+    width: 100%;
+  }
+  .download {
+    display: none;
+  }
+  .links {
+    width: 320px;
+  }
+  .links_1 {
+    padding: 0;
+    width: 320px;
+  }
+  .links_1 a {
+    font-size: 14px;
+  }
+  .links_2 {
+    width: 310px;
+    padding: 0;
+  }
+  .links_2 a {
+    font-size: 11px;
+  }
+  .container {
+    padding: 0;
+  }
+  .benefits {
+    padding-bottom: 0px;
+  }
+  .benefits .container .row {
+    padding-top: 4px;
+  }
+  .benefits .container .title {
+    padding: 0;
+  }
+  .benefits_descr {
+    width: 292px;
+    margin-left: 16px;
+    margin-right: 14px;
+  }
+  .benefits_round {
+    margin-bottom: 4px;
+  }
+  .mobile {
+    padding-top: 25px;
+  }
+  .mobile_item {
+    margin: 30px auto 0 auto;
+    width: 290px;
+    height: 254px;
+    display: block;
+  }
+  .mobile .title {
+    padding: 0;
+  }
+  .mobile .subtitle {
+    margin-top: 9px;
+  }
+  .mobile .row {
+    margin: 0;
+    padding: 0;
+  }
+  .mobile .col-md-4 {
+    padding: 0;
   }
 }
 /*# sourceMappingURL=style.min.css.map */

@@ -15,7 +15,21 @@
     position: absolute
     right: 11px
     bottom: 17px
-
+  .benefits
+    &_item
+      align-items: flex-start
+    &_descr
+      width: 300px
+  .benefits
+    .benefits_wrapper
+      .benefits
+        &_descr
+          width: 305px
+        &_round
+          margin-right: 7px
+        &_item
+          margin: 20px 5px 0 0
+      
 @media (max-width: 991px)
   .menu
     &_item
@@ -43,8 +57,21 @@
     padding-top: 32px
     width: 200px
     height: 200px
+  .benefits
+    &_item
+      margin: 0
+      flex-direction: column
+      align-items: center
+    &_descr
+      width: 300px
+    .benefits
+    .benefits_wrapper
+      .benefits
+        &_round
+          margin-bottom: 15px
 
-@media ( max-width: 767px)
+
+@media (max-width: 767px)
   .menu
     position: fixed
     flex-direction: column
@@ -88,3 +115,139 @@
           display: none
         &:nth-child(3)
           transform: rotate(45deg)
+  .xs-hidden
+    display: none
+  .xs-visible
+    display: block
+  .subheader
+    &_phone
+      display: block
+      margin-top: 10px
+      color: #ffffff
+      font-size: 16px
+      font-weight: 400
+      text-transform: uppercase
+      text-align: center
+    &_btn
+      display: block
+      width: 200px
+      height: 40px
+      margin: 0 auto
+      margin-top: 10px
+  .promo
+    &_header
+      line-height: 45px
+  .mobile_item
+    padding-top: 32px
+    width: 320px
+    height: 280px
+  .benefits
+    &_round
+      margin-right: 0
+@media ( max-width: 575px)
+  .row
+    width: 320px
+  .subheader
+    height: 60px
+    &_official
+      display: none
+    &_logo
+      margin-top: 18px
+    &_phone
+      font-size: 12px
+      font-weight: 400
+      text-transform: uppercase
+      margin-top: 11px
+    &_btn
+      width: 110px
+      height: 22px
+      font-size: 10px
+      margin-top: 9px
+  .promo
+    min-height: 400px
+    padding: 93px 0 35px 0
+    &_descr
+      display: none
+    &_header
+      font-size: 30px
+      padding: 0 24px
+      line-height: 35px
+    &_subheader
+      font-size: 20px
+      margin-top: 33px
+      padding: 0 10px
+      line-height: 30px
+    &_btn
+      width: 210px
+      height: 50px
+      margin-top: 72px
+  .menu
+    width: 85%
+  .benefits
+    .container
+      .row
+        padding: 22px 0 36px 0
+        .benefits_round
+          margin-top: 20px
+        .benefits_item
+          margin: 0
+        .benefits_descr
+          margin-top: 20px
+          width: auto
+  .title
+    font-size: 16px
+    margin-top: 15px
+    line-height: 16px
+  .mobile_item
+    padding-top: 32px
+    width: 200px
+    height: 200px
+  .capibality_1
+    min-height: 320px
+  .car_img
+    width: 100%
+  .download
+    display: none
+  .links
+      width: 320px
+      &_1
+        padding: 0
+        width: 320px
+        a
+          font-size: 14px
+      &_2
+        width: 310px
+        padding: 0
+        a
+          font-size: 11px
+  .container
+    padding: 0
+  .benefits
+    padding-bottom: 0px
+    .container
+      .row
+        padding-top: 4px
+      .title
+        padding: 0
+    &_descr
+      width: 292px
+      margin-left: 16px
+      margin-right: 14px
+    &_round
+      margin-bottom: 4px
+  .mobile
+    padding-top: 25px
+    &_item
+      margin: 30px auto 0 auto
+      width: 290px
+      height: 254px
+      display: block
+    .title
+      padding: 0
+    .subtitle
+      margin-top: 9px
+    .row
+      margin: 0
+      padding: 0
+    .col-md-4
+      padding: 0
